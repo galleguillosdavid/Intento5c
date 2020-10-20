@@ -14,6 +14,5 @@ data class SuperHeroesEntity(
     val imageLg     : String,
     val name        : String,
     val AlterEgos   : String?,
-    @Embedded
     val height      : List<String>
 )
