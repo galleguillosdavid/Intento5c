@@ -1,9 +1,7 @@
-package com.example.intento5.Model.Retrofit
+package com.example.intento5.Model.Network.Retrofit
 
-import com.example.intento5.Model.SuperHeroesApi
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
 
 class RetrofitClient {
 

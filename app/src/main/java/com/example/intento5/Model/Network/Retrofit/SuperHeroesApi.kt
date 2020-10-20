@@ -1,4 +1,4 @@
-package com.example.intento5.Model
+package com.example.intento5.Model.Network.Retrofit
 
 import com.example.intento5.Model.Pojos.SuperHeroes
 import retrofit2.Call
