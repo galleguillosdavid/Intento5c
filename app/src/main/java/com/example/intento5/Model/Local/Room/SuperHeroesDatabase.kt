@@ -4,9 +4,11 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import androidx.room.TypeConverters
 
 
 @Database(entities = [SuperHeroesEntity::class],version = 1)
+@TypeConverters(HeightTypeConverter::class)
 abstract class SuperHeroesDatabase : RoomDatabase(){
     abstract fun superHeroesDao(): SuperHeroesDao
     companion object {
