@@ -6,7 +6,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "super_heroes_table")
-data class SupoerHeroesEntity(
+data class SuperHeroesEntity(
     @PrimaryKey
     @NonNull
     val id          : Int,
